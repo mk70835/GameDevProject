@@ -53,7 +53,8 @@ namespace GameDevProject
             // TODO: use this.Content to load your game content here
             //
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
-            player.Initialize(Content.Load<Texture2D>("player0"), playerPosition);
+            player = new Player(this, Content.Load<Texture2D>("player0"), playerPosition);
+            //player.Initialize();
         }
 
         /// <summary>

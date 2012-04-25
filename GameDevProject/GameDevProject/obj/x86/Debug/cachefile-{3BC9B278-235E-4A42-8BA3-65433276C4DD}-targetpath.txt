@@ -1,0 +1,2 @@
+Content\player.xnb
+Content\player0.xnb
