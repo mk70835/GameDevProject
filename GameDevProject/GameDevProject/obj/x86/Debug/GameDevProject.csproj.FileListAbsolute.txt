@@ -1,0 +1,6 @@
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\GameDevProject.exe
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\GameDevProject.pdb
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.exe
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.pdb
