@@ -1,2 +1,4 @@
 Content\player.xnb
 Content\player0.xnb
+Content\Player-sheet-zombie.xnb
+Content\Player0sheet.xnb

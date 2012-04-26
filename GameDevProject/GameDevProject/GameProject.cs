@@ -49,11 +49,13 @@ namespace GameDevProject
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            this.Services.AddService(typeof(SpriteBatch), spriteBatch);
 
             // TODO: use this.Content to load your game content here
             //
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Height / 2);
-            player = new Player(this, Content.Load<Texture2D>("player0"), playerPosition);
+            player = new Player(this, Content.Load<Texture2D>("Player0sheet"), playerPosition);
+            this.Components.Add(player);
             //player.Initialize();
         }
 
@@ -76,6 +78,8 @@ namespace GameDevProject
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+                this.Exit();
 
             // TODO: Add your update logic here
 
@@ -91,11 +95,12 @@ namespace GameDevProject
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            //spriteBatch.Begin();
+            //player.Draw(spriteBatch, gameTime);
+            //spriteBatch.End();
             spriteBatch.Begin();
-            player.Draw(spriteBatch, gameTime);
-            spriteBatch.End();
-
             base.Draw(gameTime);
+            spriteBatch.End();
         }
     }
 }

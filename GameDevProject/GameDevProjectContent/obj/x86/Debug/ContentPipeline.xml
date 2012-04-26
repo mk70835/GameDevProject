@@ -19,6 +19,24 @@
       <Output>D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\player0.xnb</Output>
       <Time>2012-04-25T17:30:46.1392013+02:00</Time>
     </Item>
+    <Item>
+      <Source>Player-sheet-zombie.png</Source>
+      <Name>Player-sheet-zombie</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Player-sheet-zombie.xnb</Output>
+      <Time>2012-04-26T19:49:17.9085033+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Player0sheet.png</Source>
+      <Name>Player0sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Player0sheet.xnb</Output>
+      <Time>2012-04-26T20:32:19.8241804+02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

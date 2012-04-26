@@ -6,3 +6,5 @@ D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj
 D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\obj\x86\Debug\GameDevProject.pdb
 D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\player.xnb
 D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\player0.xnb
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Player-sheet-zombie.xnb
+D:\projekty\ktgk\GameDevProject\GameDevProject\GameDevProject\GameDevProject\bin\x86\Debug\Content\Player0sheet.xnb
