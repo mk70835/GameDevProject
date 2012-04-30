@@ -48,6 +48,7 @@ namespace GameDevProject
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
+            //this.Services.AddService(typeof(GraphicsDevice), GraphicsDevice);
             spriteBatch = new SpriteBatch(GraphicsDevice);
             this.Services.AddService(typeof(SpriteBatch), spriteBatch);
 
